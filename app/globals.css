@@ -24,4 +24,9 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  /* 중앙 정렬을 위한 커스텀 클래스 */
+  .flex-center {
+    @apply flex items-center justify-center min-h-screen;
+  }
 }
