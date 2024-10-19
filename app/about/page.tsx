@@ -68,7 +68,7 @@ export default function About() {
           <strong>생일:</strong> 2004년 11월 19일
         </p>
         <p className="mt-2">
-          <strong>학과:</strong> 정보보호학과 2학년
+          <strong>학과:</strong> 정보보호학과 23학번
         </p>
         <p className="mt-2">
           <strong>관심 분야:</strong> 정보 보안, 웹 개발

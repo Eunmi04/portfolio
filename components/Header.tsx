@@ -38,6 +38,12 @@ export default function Header() {
             >
               Hobby
             </Link>
+            <Link
+              href="/videoo"
+              className="text-white hover:underline transition duration-300"
+            >
+              Video
+            </Link>
           </div>
         </div>
       </nav>
