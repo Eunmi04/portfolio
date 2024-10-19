@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Hobby() {
   return (
-    <div className="container mx-auto p-8">
+    <div className="flex flex-col items-center justify-center min-h-screen p-8">
       <h1 className="text-3xl font-bold text-center mb-8">My Hobbies</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl w-full">
         <div className="p-6 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:scale-105 text-center">
           <h2 className="text-2xl font-semibold mb-2">노래 듣기</h2>
           <p>

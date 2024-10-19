@@ -2,18 +2,18 @@
 import React, { useState, useEffect } from 'react'
 
 export default function Home() {
-  const [isVisible, setIsVisible] = useState(false) // 텍스트가 보이는 상태
+  const [isVisible, setIsVisible] = useState(false)
 
   useEffect(() => {
     const timeout = setTimeout(() => {
-      setIsVisible(true) // 일정 시간 후 텍스트가 나타나도록 설정
+      setIsVisible(true)
     }, 500)
 
-    return () => clearTimeout(timeout) // 클린업 함수로 타임아웃 해제
+    return () => clearTimeout(timeout)
   }, [])
 
   return (
-    <div className="flex flex-col justify-start items-center h-screen text-gray-800 p-10">
+    <div className="flex flex-col justify-center items-center min-h-screen text-gray-800 p-10">
       <h1
         className={`text-5xl font-bold text-center transition-all duration-1000 ease-in-out ${
           isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-75'

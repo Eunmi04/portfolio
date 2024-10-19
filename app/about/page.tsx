@@ -10,8 +10,8 @@ import Image from 'next/image'
 
 export default function About() {
   return (
-    <div>
-      <div className="container mx-auto p-8 flex items-start border border-green-600 rounded-lg shadow-lg bg-white">
+    <div className="flex flex-col items-center min-h-screen p-8">
+      <div className="container mx-auto p-8 flex items-center border border-green-600 rounded-lg shadow-lg bg-white">
         <div className="w-40 h-40 mr-4">
           <Image
             src="/[[...image]]/profileImage.jpg"
