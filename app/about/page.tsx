@@ -14,7 +14,7 @@ export default function About() {
       <div className="container mx-auto p-8 flex items-center border border-green-600 rounded-lg shadow-lg bg-white">
         <div className="w-40 h-40 mr-4">
           <Image
-            src="/[[...image]]/profileImage.jpg"
+            src="/[[...image]]/profile.jpg"
             alt="내프로필"
             className="rounded-full mb-4 object-cover"
             width={200}
